@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DietDazzle" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#F7B400</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Base.Theme.AndroidPreferences" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="fontFamily">@font/jost_medium</item>
+        <item name="android:fontFamily">@font/jost_medium</item>
+        <item name="android:letterSpacing">.1</item>
+
+    </style>
+
+    <style name="Theme.AndroidPreferences" parent="Base.Theme.AndroidPreferences" />
+
+    <!-- color palette -->
+    <style name="ShapeAppearanceColorPallate" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">32dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <!--        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+                <item name="android:textColorSecondary">@color/textColorSecondary</item>
+                <item name="android:textColorHint">@color/textColorSecondary </item>-->
+    </style>
+    <!-- app bar -->
+    <style name="TextAppearance.App.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <!--    <item name="fontFamily">@font/rosarivo</item>
+            <item name="android:fontFamily">@font/rosarivo</item>-->
+    </style>
+    <style name="TextAppearance.App.CollapsingToolbar.Collapsed" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <!--        <item name="fontFamily">@font/rosarivo</item>
+                <item name="android:fontFamily">@font/rosarivo</item>-->
+    </style>
+
+    <style name="CustomTabText" parent="TextAppearance.Design.Tab">
+        <!--     <item name="android:textSize">22sp</item> -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="App.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#F7B400</item>
+    </style>
+
+</resources>

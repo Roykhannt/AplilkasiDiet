@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508142449794",
+    "project_id": "dietdazzle-3dbce",
+    "storage_bucket": "dietdazzle-3dbce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508142449794:android:5152b7ed0d02ea416a709b",
+        "android_client_info": {
+          "package_name": "com.example.dietdazzle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOTf_n8uLm4o69HZfhwK_wq4o27U1iL2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

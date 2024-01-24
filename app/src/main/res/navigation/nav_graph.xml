@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/appIntro">
+
+    <fragment
+        android:id="@+id/appIntro"
+        android:name="com.example.dietdazzle.AppIntro"
+        android:label="App Intro" >
+        <action
+            android:id="@+id/action_appIntro_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.dietdazzle.LoginActivity"
+        android:label="Login Activity" />
+
+
+</navigation>

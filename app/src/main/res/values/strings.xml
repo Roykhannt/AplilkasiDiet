@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">DietDazzle</string>
+    <string name="pref_value"> String : %1$s \n Int : %2$d \n Boolean : %3$s \n String : %4$s </string>
+    <string name="pref_storing_data">Storing Data</string>
+    <string name="pref_remove_specific_data">Remove Specific Data</string>
+    <string name="pref_clear_all_data">Clear All Data</string>
+    <string name="pref_retrieve_data">Retrieve Data</string>
+    <!-- pref -->
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+    <string-array name="list_preference_entry_values">
+        <item>Entry Value 1</item>
+        <item>Entry Value 2</item>
+        <item>Entry Value 3</item>
+    </string-array>
+
+    <string name="none">none</string>
+    <string name="intro_get_started">Get Started</string>
+    <string name="intro_next">Next</string>
+    <string name="intro_title_1">You Should Know What You Eat </string>
+    <string name="intro_title_2">Track Your Diet</string>
+    <string name="intro_title_3">Live, Healthy and Great</string>
+    <string name="intro_description_1">Gain insights in your nutritional habits with detailed statistics</string>
+    <string name="intro_description_2">We will help you lose weight, stay fit, or build muscle</string>
+    <string name="intro_description_3">Let’s start this journey and live healty together!</string>
+    <string name="intro_skip">SKIP</string>
+    <string name="menu_view_pager2">View Pager2</string>
+    <string name="tab1">Tab 1</string>
+    <string name="tab2">Tab 2</string>
+    <string name="tab3">Tab 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="hi_there_you_ve_been_missed">Hi there, you’ve been missed</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="login_now">login now</string>
+    <string name="already_have_an_account">already have an account?</string>
+    <string name="back_button">Back</string>
+    <string name="next">Next</string>
+</resources>

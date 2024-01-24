@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/splash"
+                />
+
+            <TextView
+                android:id="@+id/datetime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="waktu"
+                android:layout_weight="2"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/draft"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@color/white"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_greeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good Morning"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#173430"/>
+            
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#072846"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.progressindicator.CircularProgressIndicator
+                        android:id="@+id/circularProgressIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:progress="85"
+                        app:indicatorColor="#F7B400"
+                        app:indicatorDirectionCircular="counterclockwise"
+                        app:indicatorSize="120dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:trackColor="#56562F"
+                        app:trackCornerRadius="8dp"
+                        app:trackThickness="14dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_kalorie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1300"
+                        android:textColor="#F7B400"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintBottom_toTopOf="@+id/textView3"
+                        app:layout_constraintEnd_toEndOf="@+id/circularProgressIndicator"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@+id/circularProgressIndicator"
+                        app:layout_constraintTop_toTopOf="@+id/circularProgressIndicator"
+                        app:layout_constraintVertical_chainStyle="packed" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Of 2200 kcal"
+                        android:textColor="#F7B400"
+                        app:layout_constraintBottom_toBottomOf="@+id/circularProgressIndicator"
+                        app:layout_constraintEnd_toEndOf="@+id/circularProgressIndicator"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@+id/circularProgressIndicator"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_kalorie" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/ornamen"
+                        app:layout_constraintBottom_toTopOf="@+id/tv_kalorie"
+                        app:layout_constraintEnd_toEndOf="@+id/circularProgressIndicator"
+                        app:layout_constraintStart_toStartOf="@+id/circularProgressIndicator" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#F6F7F7"
+                android:layout_marginTop="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/nutrisi">
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Body Mass Index"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#173430"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#D5DAE0"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="25dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/bmi"
+                        android:layout_gravity="center"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BMI Score"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/tv_resultBmi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Normal"
+                            android:textColor="#617D79"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tv_bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="29.0"
+                        android:textColor="#173430"
+                        android:textSize="26sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Click to see short video here !!"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"
+                android:drawableEnd="@drawable/baseline_ondemand_video_24"
+                android:paddingEnd="40dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
